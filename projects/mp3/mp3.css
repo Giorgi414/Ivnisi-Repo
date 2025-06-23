@@ -1,0 +1,154 @@
+body {
+    background-color: #0069ca;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: #ffffff;
+    margin-top: 10px;
+    padding-bottom: 11px;
+    gap: 15px;
+    font-family: "Inter";
+    font-size: 14px;
+    font-weight:330;
+    font-style: normal;
+    /*border-bottom: 1px #005fb6 solid;*/    
+}
+
+.header-span {
+    cursor: pointer;
+}
+
+.wrapper-2 {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+}
+
+.juice-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.juice {
+    padding-top: 55px;
+    padding-bottom: 50px;
+    
+}
+
+.search-container {
+    display: flex;
+    flex-direction: column;   
+    align-items: center;
+}
+
+.search-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.inp-1 {
+    height: 54px;
+    width: 500px;
+    /*border: 11px #005fb6;
+    border-style: solid;
+    border-radius: 13px;*/
+    outline: none;
+    border: white;
+    font-size: 15.5px;
+    padding-left: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px; 
+    color: #0354a0
+}
+
+.inp-2 {
+    height: 54.3px;
+    width: 100px;
+    color: white;
+    background-color: #0084ff;
+    border: none;
+    cursor:pointer;
+    outline: none;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.search-p {
+    color: rgb(204, 204, 204);
+    font-size: 12px;
+    font-family: "inter";
+    font-weight: 400;
+}
+
+/*.instructions {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}*/
+
+.inst-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    color: white;
+    font-family: "inter";
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 0;
+}
+
+.inst-p {
+    text-align: start;
+    line-height: 25px;
+    color: rgb(204, 204, 204);
+    width: 625px;
+    font-family: "inter";
+    font-size: 15px;
+}
+
+.inst-p span {
+    color: rgba(245, 245, 220, 0.959);
+}
+
+.using {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.using p {
+    text-align: start;
+    line-height: 25px;
+    color: rgb(204, 204, 204);
+    width: 625px;
+    font-family: "inter";
+    font-size: 15px;
+}
+
+.using span {
+    color: rgba(245, 245, 220, 0.959);
+}
+
+.foot-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    color: white;
+    font-family: "inter";
+    font-size: 14px;
+    margin-top: 30px;
+}
+
+.foot-wrapper div {
+    cursor: pointer;
+}
