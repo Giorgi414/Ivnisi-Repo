@@ -1,0 +1,16 @@
+body{
+    height: 200vh;
+}
+div{
+    height: 66vh;
+    background-image: url("../Media/cute-owl-sitting-on-tree.png"),url("../Media/download.jpg");
+    background-repeat:no-repeat,repeat ;
+    background-size:250px;
+    background-position:top 100px left 300px;
+    font-size: 45px;
+    overflow: scroll;
+    background-attachment: fixed;
+}
+span{
+    color:black;
+}

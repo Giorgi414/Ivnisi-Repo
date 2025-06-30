@@ -1,0 +1,1095 @@
+body {
+    margin: 0;
+}
+
+header {
+    position: fixed;
+    background-color: #fefefe;
+    width: 100%;
+    border-bottom: 1px solid #cddad0;
+}
+
+.head-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.aj-svg {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 48px;
+    padding-top: 32px;
+    width: 100%;
+    min-width: 100px;
+    max-width: 220px;
+    max-height: 64px;
+    font-size: 1.2rem;
+    line-height: 1.5em;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.wrapper-2 {
+    display: flex;
+    font-family: "EB Garamond", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    margin-right: 50px;
+    margin-top: 5px;
+    
+}
+
+.head-link {
+    color: #18311d;
+    cursor: pointer;
+    border-bottom-width: 2px;
+    border-bottom-color: #0000;
+    align-items: center;
+    height: 50px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-right: 30px;
+    font-size: 19.5px;
+    font-weight: 500;
+    line-height: 1.5em;
+    text-decoration: none;
+    transition: all .2s;
+    display: flex
+}
+
+.template {
+    background-color: #18311d;
+    color: #fefefe;
+    padding-left: 30px;
+    min-width: auto;
+    margin-top: 12px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-size: 19px;
+    transition: 0.3s;
+}
+
+.template:hover {
+    background-color: #050805;
+}
+
+.sec-container-1 {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f4f7f4;
+    width: auto;
+    height: 940px;
+}
+
+.aj-container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 90px;
+}
+
+.ajmarried {
+    width: 530px;
+    font-size: 4.5rem;
+    font-family: "ITC New Veljovic W01 Book";
+    color: #18311d;
+    line-height: 75px;
+}
+
+.specday {
+    color: #18311d;
+    font-family: Jost, sans-serif;
+    font-size: 1.25rem;
+    width: 520px;
+    line-height: 1.4em;
+    margin-top: 15px;
+}
+
+.amandaj {
+    border-radius: 260px;
+    height: 750px;
+    width: 540px;
+    margin-top: 50px;
+    margin-left: 60px;
+}
+
+.aj-wrapper-1 {
+    padding: 56px;
+    margin-top: 99px;
+}
+
+.butt-1 {
+    background-color: #18311d;
+    font-family: "EB Garamond", serif;
+    width: 50px;
+    color: #ffffff;
+    border: 0.0625rem solid #0000;
+    border-top-width: 1px;
+    flex: none;
+    justify-content: center;
+    align-items: center;
+    min-width: 9rem;
+    padding: 0.85rem 1.75rem;
+    font-size: 19px;
+    line-height: 1.5em;
+    display: flex;
+    margin-top: 30px;
+    transition: 0.3s;
+}
+
+.butt-1:hover {
+    background-color: #0a140c;
+    cursor: pointer;
+}
+
+.plsrsvp {
+    color: #18311d;
+    font-family: "Jost", serif;
+    font-size: 18.5px;
+    line-height: 1.5em;
+    margin-top: 7px;
+}
+
+.sec-container-2 {
+    width: auto;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+    display: flex;
+    background-color: #ffffff;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    gap: 4rem;
+}
+
+.ajwalk {
+    border-radius: 300px;
+    height: 780px;
+    width: 560px;
+    margin-left: 52px;
+}
+
+.rsvp-container {
+    padding: 16.8px;
+    line-height: 2px;
+}
+
+.rsvp-text {
+    border: 1px solid #182e1c;
+    background-color: #f4f7f4;
+    width: 420px;
+    padding-left: 50px;
+    padding-right: 64px;
+    height: 735px;
+}
+
+.rsvp-info {
+    font-family: "ITC New Veljovic W01 Book";
+    font-weight: 400;
+    font-size: 3.50rem;
+    color: #182e1c;
+}
+
+.rsvp-info-2 {
+    color:#18311d;
+    font-family: Jost, sans-serif;
+    font-size: 1.25rem;
+    line-height: 27px;
+}
+
+.hr {
+    background-color: red;
+}
+
+.horizontal-line {
+    background-color: #182e1c;
+    width: 392px;
+    height: 1px;
+    margin-top: 0.7rem;
+    margin-left: 17px;
+}
+
+.rsvp-text-2 {
+    grid-row-gap: 1px;
+    flex-flow: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    max-width: 26rem;
+    display: flex;
+}
+
+.rsvp-wrapper-1 {
+    padding: 17px;
+}
+
+.rsvp-when {
+    font-family: 'Jenriv', sans-serif;
+    color: #182e1c;
+    font-size: 2.25rem;
+}
+
+.rsvp-monday {
+    color: #182e1c;
+    font-family: Jost, sans-serif;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    width: 160px;
+}
+
+.rsvp-wrapper-2 {
+    padding: 17px;
+}
+
+.rsvp-where {
+    font-family: 'Jenriv', sans-serif;
+    color: #182e1c;
+    font-size: 2.25rem;
+}
+
+.rsvp-la {
+    color: #182e1c;
+    font-family: Jost, sans-serif;
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+.rsvp-wrapper-3 {
+    padding-top: 17px;
+    padding-left: 17px;
+    padding-right: 17px;
+    padding-bottom: 3px;
+}
+
+.rsvp-dress {
+    font-family: 'Jenriv', sans-serif;
+    color: #182e1c;
+    font-size: 2.25rem;
+}
+
+.rsvp-formal {
+    color: #182e1c;
+    font-family: Jost, sans-serif;
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+.rsvp-wrapper-4 {
+    padding-left: 17px;
+}
+
+.rsvp-lmk {
+    color: #182e1c;
+    font-family: Jost, sans-serif;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    margin-top: 14px;   
+}
+
+.butt-2-container {
+    padding: 15px;
+    margin-top: 3px;
+}
+
+.butt-2 {
+    background-color: #18311d;
+    font-family: "EB Garamond", serif;
+    width: 50px;
+    color: #ffffff;
+    border: 0.0625rem solid #0000;
+    border-top-width: 1px;
+    flex: none;
+    justify-content: center;
+    align-items: center;
+    min-width: 9rem;
+    padding: 0.85rem 1.75rem;
+    font-size: 19px;
+    line-height: 1.5em;
+    display: flex;
+    padding: 13px;
+    transition: 0.3s;
+}
+
+.butt-2:hover {
+    background-color: #0a140c;
+    cursor: pointer;
+}
+
+.sec-container-3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+    /**width: 100%;
+    padding-top: 8rem;
+    padding-bottom: 8rem;**/
+}
+
+.sched-event-container {
+    flex-direction: column;
+    width: 100%;
+    display: flex;
+}
+
+.schedule-cont {
+    text-align: center;
+    width: 100%;
+    max-width: 38rem;
+    margin-bottom: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+    color: #182e1c;
+}
+
+.schedule {
+    font-size: 4rem;
+    line-height: 1.7em;
+    font-family: "EB Garamond", serif;
+}
+
+.excited {
+    font-size: 1.75rem;
+    line-height: 1.3em;
+    width: 600px;
+}
+
+.event-wrapper {
+    display: flex;
+    flex-direction: row;
+    padding-left: 61px;
+    gap: 3.9em;
+}
+
+.hall {
+    width: 220px;
+    height: 280px;
+    border-radius: 11px;
+}
+
+.food {
+    width: 220px;
+    height: 280px;
+    border-radius: 11px;
+}
+
+.plates {
+    width: 220px;
+    height: 280px;
+    border-radius: 11px;
+}
+
+.dancing {
+    width: 220px;
+    height: 280px;
+    border-radius: 11px;
+}
+
+.h3-wedding {
+    font-size: 1.7rem;
+    line-height: 1.2em;
+    text-align: center;
+    color: #18311d;
+    font-family: "EB Garamond", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.five-pm {
+    text-align: center;
+    font-family: Jost, sans-serif;
+    color: #182e1c;
+    font-size: 20px;
+    line-height: 0px;
+    margin-top: 0px;
+}
+
+.vows {
+    text-align: center;
+    font-family: Jost, sans-serif;
+    color: #182e1c;
+    width: 250px;
+    margin-top: 0%;
+}
+
+.h3-drinks {
+    font-size: 1.7rem;
+    line-height: 1.3em;
+    text-align: center;
+    color: #18311d;
+    font-family: "EB Garamond", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.six-pm {
+    text-align: center;
+    font-family: Jost, sans-serif;
+    color: #182e1c;
+    font-size: 20px;
+    line-height: 0px;
+    margin-top: 0%;
+}
+
+.mingle {
+    text-align: center;
+    font-family: Jost, sans-serif;
+    color: #182e1c;
+    width: 252px;
+    margin-top: 0%;
+}
+
+.h3-dinner {
+    font-size: 1.7rem;
+    line-height: 1.3em;
+    text-align: center;
+    color: #18311d;
+    font-family: "EB Garamond", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.seven-pm {
+    text-align: center;
+    font-family: Jost, sans-serif;
+    color: #182e1c;
+    font-size: 20px;
+    line-height: 0px;
+    margin-top: 0%;
+}
+
+.gourmet {
+    text-align: center;
+    font-family: Jost, sans-serif;
+    color: #182e1c;
+    width: 250px;
+    margin-top: 0%;
+}
+
+.h3-dance {
+    font-size: 1.7rem;
+    line-height: 1.3em;
+    text-align: center;
+    color: #18311d;
+    font-family: "EB Garamond", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.eight-pm {
+    text-align: center;
+    font-family: Jost, sans-serif;
+    color: #182e1c;
+    font-size: 20px;
+    line-height: 0px;
+    margin-top: 0%;
+}
+
+.following {
+    text-align: center;
+    font-family: Jost, sans-serif;
+    color: #182e1c;
+    width: 250px;
+    margin-top: 0%;
+}
+
+.sec-container-4 {
+    width: 100%;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+    background-color: rgb(251, 251, 251);
+}
+
+.discover-polaroid-container {
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+}
+
+
+.discover-our {
+    color: #18311d;
+    font-size: 60px;
+    font-weight: 500;
+    font-family: "ITC New Veljovic W01 Book";
+    width: 480px;
+}
+
+.butt-story {
+    background-color: #18311d;
+    font-family: "EB Garamond", serif;
+    width: 50px;
+    color: #ffffff;
+    border: 0.0625rem solid #0000;
+    border-top-width: 1px;
+    flex: none;
+    justify-content: center;
+    align-items: center;
+    min-width: 9rem;
+    padding: 0.85rem 1.75rem;
+    font-size: 19px;
+    line-height: 1.5em;
+    display: flex;
+    margin-top: 30px;
+    transition: 0.3s;
+}
+
+.butt-story:hover {
+    background-color: #0a140c;
+    cursor: pointer;
+}
+
+.polaroid-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    gap: 25px;
+}
+
+.pol-link {
+    width: 221px;
+}
+
+.sec-container-5 {
+    height: 700px;
+}
+
+.faq-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 60px;
+}
+
+.faq {
+    color: #18311d;
+    font-size: 66px;
+    font-weight: 500;
+    font-family: "ITC New Veljovic W01 Book";
+}
+
+.faq-dress-code {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(244, 247, 244);
+    border-radius: 20px;
+    border: 1px solid rgba(139, 139, 139, 0.452);
+    height: 85px;
+    width: 620px;
+    padding-left: 30px;
+}
+
+.faq-time {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(244, 247, 244);
+    border-radius: 20px;
+    border: 1px solid rgba(139, 139, 139, 0.452);
+    height: 90px;
+    width: 650px;
+    padding-left: 30px;
+    margin-top: 15px;
+}
+
+.faq-link {
+    color: #18311d;
+    font-family: "ITC New Veljovic W01 Book";
+    font-weight: 500;
+    font-size: 23.5px;
+}
+
+.faq-c-link {
+    cursor: pointer;
+    height: 85px;
+    width: 610px;
+}
+
+.faq-parking {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(244, 247, 244);
+    border-radius: 20px;
+    border: 1px solid rgba(139, 139, 139, 0.452);
+    /**height: 90px;
+    width: 650px;**/
+    padding-left: 30px;
+    margin-top: 15px;
+}
+
+.faq-plus-one {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(244, 247, 244);
+    border-radius: 20px;
+    border: 1px solid rgba(139, 139, 139, 0.452);
+    /**height: 90px;
+    width: 650px;**/
+    padding-left: 30px;
+    margin-top: 15px;
+}
+
+.faq-restrictions {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(244, 247, 244);
+    border-radius: 20px;
+    border: 1px solid rgba(139, 139, 139, 0.452);
+    /**height: 90px;
+    width: 650px;**/
+    padding-left: 30px;
+    margin-top: 15px;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    background-color: #f4f7f4;
+    height: 404px;
+}
+
+.footer-container-1 {
+    flex-direction: column;
+    width: 100%;
+    max-width: 80rem;
+    /**padding-left: 2rem;
+    padding-right: 2rem;**/
+    display: flex;
+}
+
+.footer-container-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    padding-top: 68px;
+    margin-bottom: 50px;
+}
+
+.foot-aj-wrapper {
+    font-family: "ITC New Veljovic W01 Book";
+    color: #18311d;
+    width: 367px;
+    line-height: 22px;
+    padding-left: 48px;
+}
+
+.foot-aj {
+    font-size: 23.5px;
+}
+
+.tapestry {
+    font-family: Jost, sans-serif;
+    font-size: 16px;
+}
+
+.footer-wrapper-2 {
+    display: flex;
+    flex-direction: column;
+    color: #18311d;
+    text-align: end;
+    font-family: "ITC New Veljovic W01 Book";
+    font-size: 23px;
+    line-height: 45px;
+    padding-right: 20px;
+}
+
+.wrapper2-link {
+    cursor: pointer;
+}
+
+.below-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.below-wrapper-1 {
+    display: flex;
+    flex-direction: row;
+    margin-left: 48px;
+    font-family: Jost, sans-serif;
+    color: #182e1c;
+    gap: 20px;
+}
+
+.below-wrapper-1 div {
+    cursor: pointer;
+}
+
+.below-wrapper-2 {
+    display: flex;
+    flex-direction: row;
+    margin-right: 19px;
+    font-family: Jost, sans-serif;
+    color: #182e1c;
+    gap: 20px;
+}
+
+.below-wrapper-2 span {
+    cursor: pointer;
+}
+
+.burger-bars {    
+    display: none;
+    color: #182e1c;
+    background-color: #cddad0;
+    width: 54px;
+    height: 54px;
+    font-size: 20px;
+    border-radius: 500px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.burger-bars:hover {
+    background-color: rgba(173, 173, 173, 0.493);
+}
+
+.giogio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gio2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gio-link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/**.ajwalk-resp-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}**/
+
+.ajwalk-resp {
+    display: none;
+    border-radius: 300px;
+    height: 700px;
+    width: 520px;
+    margin-left: 52px;
+}
+
+@media screen and (max-width:991px) {
+    .head-link {
+        display: none;
+    }
+
+    .wrapper-2 {
+        margin-right: 32px;
+    }
+
+    .burger-bars {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    header  {
+        height: 63px;
+    }
+
+    .aj-svg {
+        padding-left: 32px;
+        padding-top: 20px;
+    }
+
+    .ajmarried {
+        font-size: 3rem;
+        line-height: 45px;
+        font-weight: 500;
+    }
+
+    .amandaj {
+        height: 570px;
+        width: 410px;
+        border-radius: 200px;
+        margin-top: 30px;
+        margin-right: 30px;
+    }
+
+    .aj-wrapper-1 {
+        padding: 36px;
+        margin-top: 59px;
+    }
+
+    .specday {
+        font-size: 1.20rem;
+    }
+
+    .ajwalk{
+        height: 610px;
+        width: 420px;
+        margin-left: 25px; 
+    }
+
+    .rsvp-text {
+        width: 360px;
+        padding-left: 10px;
+        padding-right: 40px;
+        height: 655px;
+    }
+
+    .rsvp-info {
+        font-family: "ITC New Veljovic W01 Book";
+        font-weight: 400;
+        font-size: 2.90rem;
+        color: #182e1c;
+    }
+
+    .rsvp-text-link {
+        font-size: 1.90rem;
+    }
+
+    .horizontal-line {
+        width: 360px;
+        height: 1px;
+        margin-top: 0.7rem;
+        margin-left: 10px;
+    }
+
+    .rsvp-container {
+        padding-top: 0px;
+        padding-left: 10px;
+        line-height: 1px;
+    }
+    
+    .rsvp-info-2 {
+        font-size: 1.20rem;
+        line-height: 27px;
+        width: 340px;
+    }
+
+    .rsvp-wrapper-link {
+        padding-left: 10px;
+    }
+
+    .event-link {
+        width: 215px;
+    }
+
+    .h3-link {
+        font-size: 1.5rem;
+    }
+
+    .sec-container-1 {
+        height: 740px;
+    }
+
+    .h3-wedding {
+        width: 100px;
+    }
+
+    .event-wrapper {
+        padding-left: 16px;
+        gap: 27px;
+    }
+
+    .h3-drinks {
+        width: 150px;
+    }
+
+    .vows {
+        width: 200px;
+    }
+
+    .mingle {
+        width: 200px;
+    }
+
+    .gourmet {
+        width: 200px;
+    }
+
+    .following {
+        width: 200px;
+    }
+
+    .discover-our {
+        font-size: 55px;
+        font-weight: 500;
+        width: 340px;
+        line-height: 55px;
+    }
+
+    .pol-link {
+        width: 250px;
+    }
+
+    .faq-container {
+        display: flex;
+        flex-direction: column;
+        padding: 30px;
+    }
+
+    .faq-c-link {
+        cursor: pointer;
+        height: 85px;
+        width: 880px;
+        margin-left: 0px;
+    }
+
+    .faq-questions {
+        margin-top: 60px;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .aj-container {
+        display: flex;
+        flex-direction: column;
+        margin-top: 0px;
+    }
+
+    .sec-container-1 {
+        height: 1280px;
+    }
+
+    .ajmarried {
+        width: 550px;
+        margin-bottom: 30px;
+    }
+
+    .specday {
+        width: 650px;
+        line-height: 1.4em;
+        margin-top: 15px;
+    }
+
+    .aj-wrapper-2 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .amandaj {
+        border-radius: 260px;
+        height: 750px;
+        width: 540px;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .ajwalk {
+        display: none;
+    }
+
+    .ajwalk-resp {
+        display: inline;
+    }
+
+    .rsvp-text {
+        border: 1px solid #182e1c;
+        background-color: #f4f7f4;
+        width: 640px;
+        /**padding-left: 50px;
+        padding-right: 64px;**/
+        height: 735px;
+        /**display: flex;
+        justify-content: center;**/
+    }
+
+    .sec-container-2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .horizontal-line {
+        width: 617px;
+        height: 1px;
+    }
+
+    .excited {
+        font-size: 2rem;
+        line-height: 1.3em;
+        width: 550px;
+        margin-left: 20px;
+    }
+
+    .event-wrapper {
+        flex-wrap: wrap;
+    }
+
+    .event-link {
+        width: 335px;
+        height: 450px;
+    }
+
+    .h3-wedding {
+        width: 200px;
+    }
+
+    .h3-drinks {
+        width: 200px;
+    }
+
+    .vows {
+        width: 320px;
+    }
+
+    .mingle {
+        width: 320px;
+    }
+
+    .gourmet {
+        width: 320px;
+    }
+
+    .following {
+        width: 320px;
+    }
+
+    .discover-our {
+        font-size: 45px;
+        font-weight: 500;
+        width: 700px;
+        line-height: 55px;
+    }
+
+    .discover-polaroid-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .polaroid-wrapper {
+        padding-top: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+
+    .faq-c-link {
+        cursor: pointer;
+        height: 54px;
+        width: 650px;
+        margin-left: 0px;
+        border-radius: 14px;
+    }
+
+    .pol-link {
+        width: 327px;
+        margin-top: 22px;
+    }
+}

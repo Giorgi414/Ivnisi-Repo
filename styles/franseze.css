@@ -1,0 +1,89 @@
+header {
+    background-color: black;
+    padding: 32.3px;
+}
+
+body {
+    margin: 0px;
+    background-image: url(../Media/franseze-smoke.jpg);
+    background-repeat: no-repeat;
+    background-size: 1370px;
+}
+
+.michael {
+    margin-top: 8px;
+    margin-left: 54px;
+}
+
+.head-text-container {
+    display: flex;
+    color: white;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.head-links {
+    padding: 15px;
+    margin-right: 20px;
+    color: #cccccc;
+    cursor: pointer;
+    font-family: "Poppins", sans-serif;
+    font-weight: 550;
+    font-style: normal;
+    font-size: 14.5px;
+}
+
+#head-home {
+    color: #d6000c;
+}
+
+#head-link:hover {
+    color: #ffffff;
+    transition: 0.6s;
+}
+
+.leader-wrapper {
+    display: flex;
+    flex-direction: column;
+    padding: 200px 0px 0px 0px;
+    color: white;
+    position: relative;
+    z-index: 1;
+}
+
+.reveal {
+    font-size: 45px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 550;
+    font-style: normal;
+    color: #ffffff;
+    margin-left: 100px;
+}
+
+.inner {
+    font-size: 230px;
+    line-height: 0.8em;
+    font-family: 'Warsaw Gothic', sans-serif;
+    font-stretch: extra-condensed;
+    font-style: normal;
+    letter-spacing: 10.77px;
+    color: #d6000c;
+    margin-left: 70px;
+    margin-top: 22px;
+}
+
+.unlock-leader {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-right: 150px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 17px;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;
+    line-height: 30px;
+}

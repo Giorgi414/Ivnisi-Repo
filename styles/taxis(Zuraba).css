@@ -1,0 +1,32 @@
+img {
+    width: 300px;
+}
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.ruka {
+    padding-bottom:  100px;
+    padding-right: 170px;
+    width: 500px;
+    padding-top: 70px;
+}
+.gegma {
+    width: 500px;
+    padding-bottom: 100px;
+    padding-top: 70px;
+}
+.foto {
+    display: flex;
+    justify-content: space-around;
+}
+p {
+    text-align: center;
+}
+h3 {
+    text-align: center;
+}
+u:hover {
+    cursor: pointer;
+}

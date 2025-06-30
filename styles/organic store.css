@@ -1,0 +1,170 @@
+.nav-bar-wrapper{
+    display: flex;
+}
+
+.nav-traders {
+    margin-top: 16px;
+    margin-left: 37px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-link {
+    font-family: "Cabin", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    font-size: 16px;
+    /*margin-left: 179px;
+    margin-top: 30px;*/
+    padding: 35px;
+    margin-right: 75px;
+}
+
+.nav-link:hover {
+    cursor: pointer;
+    color: rgb(0, 201, 0);
+    transition: 0.3s;
+} 
+
+.nav-links-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.organic-img {
+    margin-top: 110px;
+    margin-left: 42px;
+    width: 640px;
+    height: 510px;
+}
+
+.leaf {
+    display: flex;
+    margin-top: 196px;
+    margin-left: 60px;
+}
+
+.organic-leaf-container {
+    display: flex;
+}
+
+.quality-prod {
+    margin-top: 33px;
+    margin-left: 59px;
+    font-size: 17.5px;
+    font-weight: 450;
+    color: #111111;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.organic-movement {
+    margin-top: 5px;
+    margin-left: 60px;
+    font-size: 55px;
+    color: #111111;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.established {
+    color: #424242;
+    margin-top: 0px;
+    margin-left: 62px;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+button {
+    all: unset;
+    color: #ffffff;
+    background-color:#4e903c;
+    border-radius: 40px;
+    padding: 13px 32.5px 13px 32.5px;
+    margin-top: 15px;
+    margin-left: 60px;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    cursor: pointer;
+}
+
+#fabars {
+    display: none;
+}
+
+
+/*Tablet*/
+@media screen and (max-width:1026px) {
+    .organic-img {
+        width: 430px;
+        height: 350px;
+        margin-left: 20px;
+    }
+
+    .organic-movement {
+        flex-direction: row;
+        font-size: 55px;
+    }
+
+    .nav-link {
+        display: none;
+    }
+
+    #fabars {
+        display: block;
+        font-size: 25px;
+        padding: 17px;
+        margin-top: 30px;
+    }
+
+    #fabars:hover {
+        cursor: pointer;
+        color: #0fc912;
+    }
+
+    #fabars:active {
+        display: block;
+        font-size: 25px;
+        padding: 17px
+    }
+
+    .leaf {
+        margin-top: 130px;
+        margin-left: 41px;
+    }
+
+    .quality-prod {
+        margin-top: 11px;
+        margin-left: 41px;
+    }
+
+    .organic-movement {
+        margin-top: 0.5px;
+        margin-left: 41px;
+    }
+
+    .established {
+        margin-left: 41px;
+    }
+
+    button {
+        margin-left: unset;
+        margin-left: 41px;
+        margin-top: 20px;
+    }
+}

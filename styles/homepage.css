@@ -1,0 +1,83 @@
+/* II General Styles*/
+#infoF {
+color: black;
+text-align: center;
+}
+
+#teammembers {
+    color: #2955cf;
+    background-color: #ffffff6b;
+    text-align: center;
+    padding: 10px;
+    border: 4px #FFFFFF;
+    margin: 15px;
+    border-radius: 14px;
+}
+
+#ment {
+    font-size: 24px;
+    color: white;
+    text-align: center;
+    line-height: 50px;
+}
+
+body {
+  background-color:#0546fa;
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#Dment {
+text-align: center;
+}
+
+#sil {
+    text-align: center;
+    color:  black;
+}
+
+#Ncourses {
+    text-align: center;
+}
+
+#courses {
+    text-align: center;
+    color: white;
+    font-size: 22px;
+}
+
+#Homepage {
+    text-align: center;
+    color:#2955cf;
+    background-color:#ffffff6b;
+    padding: 10px;
+    border: 4px #FFFFFF;
+    margin: 15px;
+    border-radius: 14px;
+}
+
+tbody {
+    background-color:rgb(26, 216, 26);
+}
+thead {
+    background-color: blue;
+}
+tfoot {
+    background-color: red;
+}
+#howtoHTML {
+    color: #2955cf;
+    background-color: #ffffff6b;
+    text-align: center;
+    padding: 10px;
+    border: 4px #FFFFFF;
+    margin: 15px;
+    border-radius: 14px;
+}
+
+.english {
+text-align: center;
+
+}

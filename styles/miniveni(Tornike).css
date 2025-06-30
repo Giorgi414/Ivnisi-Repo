@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.mivivan-cont {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.cont {
+    max-width: 1000px;
+    width: 100%;
+    height: 100%;
+}
+img {
+    width: 70%;
+}
+p {
+    margin: 20px;
+    font-size: 22px;
+    font-weight: 600;
+}
+.minivan {
+    display: flex;
+}
+
+header {
+    width: 100%;
+    height: 80px;
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+}
+.bejos-header {
+    display: flex;
+    max-width: 1200px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.image {
+    max-width: 240px;
+    width: 100%;
+}
+.logo {
+    width: 100%;
+    height: 67px;
+    margin-left: 50px;
+}
+a {
+    text-decoration: none;
+    color: #5a5a5a;
+    margin-left: 10px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.slog {
+    font-size: 24px;
+    margin-left: 30px;
+    font-weight: 600;
+}

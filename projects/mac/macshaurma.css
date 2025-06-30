@@ -1,0 +1,348 @@
+* {
+    font-family: 'FiraGo';
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    background-color: #7ab02a;
+}
+
+.head-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hd-cont-1{
+    display: flex;
+    color: #ffffff;
+    padding: 5px;
+    margin-left: 70px;    
+}
+
+.hd-cont-2 {
+    display: flex;
+    color: #fdd400;
+    font-size: 22px;
+    margin-top: 15px;
+    margin-right: 99px;
+    
+}
+
+.links-2 {
+    padding: 5px;
+    cursor: pointer;
+}
+
+.head-links {
+    padding: 10px;
+    margin-top: 8px;
+    margin-left: 11px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.head-links:hover {
+    color: #e6e6e6;
+}
+
+.main-shaurma {
+    width: 1311px;
+}
+
+.irregularities {
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    color: #272c30;
+}
+
+.circle-container {
+    display: flex;
+    padding: 30px;
+}
+
+.adv-wrapper-1 {
+    margin-left: 70px;
+}
+
+.adv-wrapper-2 {
+    margin-left: 30px;
+}
+
+.circle-link {
+    width: 45px;
+    height: 45px;
+    background:#7ab02a;
+    color: #FFFFFF;
+    text-align: center;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 23px;
+    font-size: 21px;
+    margin-top: 44px;
+}
+
+.first-advantage {
+    font-weight: bold;
+    margin-top: 15px;
+    font-size: 18px;
+}
+
+.advantage-1 {
+    margin-top: 15px;
+    color: #7B7B7B;
+    letter-spacing: 0.7px;
+    font-size: 15px;
+}
+
+.second-advantage {
+    font-weight: bold;
+    margin-top: 15px;
+    font-size: 18px;
+}
+
+.advantage-2 {
+    margin-top: 15px;
+    color: #7B7B7B;
+    letter-spacing: 0.7px;
+    font-size: 15px;
+}
+
+.third-advantage {
+    font-weight: bold;
+    margin-top: 15px;
+    font-size: 18px;
+}
+
+.advantage-3 {
+    margin-top: 15px;
+    color: #7B7B7B;
+    letter-spacing: 0.7px;
+    font-size: 15px;
+}
+
+.fourth-advantage {
+    font-weight: bold;
+    margin-top: 15px;
+    font-size: 18px;
+}
+
+.advantage-4 {
+    margin-top: 15px;
+    color: #7B7B7B;
+    letter-spacing: 0.8px;
+    font-size: 15px;
+}
+
+.order-online {
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    color: #272c30;
+}
+
+.moped {
+    display: flex;
+    margin-top: 30px;
+    margin-left: 100px;
+}
+
+.moped-text {
+    color: #7B7B7B;
+    letter-spacing: 0.7px;
+    font-size: 15px;
+    margin-top: 15px;
+    margin-left: 30px;
+}
+
+.download-app {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+    color: #272c30;
+    margin-top: 50px;
+}
+
+.app-wrapper {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 60px;
+    margin-top: 10px;
+}
+
+.play-store {
+    width: 170px;
+    padding: 0.25rem;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    border-radius: 0.375rem;
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.app-store {
+    width: 170px;
+    padding: 0.25rem;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    border-radius: 0.375rem;
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #262626;
+    height: 200px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.foot-mac-logo {
+    margin-top: 60px;
+}
+
+.foot-wrapper-1 {
+    padding-top: 40px;
+}
+
+.foot-about-us {
+    color: #fff; 
+    font-size: 14px;
+    cursor: pointer; 
+}
+
+.foot-contact {
+    color: #fff; 
+    font-size: 14px; 
+    cursor: pointer;
+}
+
+.foot-wrapper-2 {
+    padding-top: 40px; 
+}
+
+.follow-us {
+    color: #fff; 
+    font-size: 14px;
+}
+
+.foot-fb {
+    color: #fdd400;
+}
+
+.foot-insta {
+    color: #fdd400;
+    margin-left: 15px;
+    font-size: 23px;
+}
+
+.foot-insta-fb {
+    display: flex;
+    font-size: 22px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.rights-reserved {
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+    height: 60px;
+    background-color: black;
+}
+
+.rights-text {
+    margin-top: 22px;
+    font-size: 13px;
+}
+
+.burger-menu {
+    display: none;
+    cursor: pointer;
+}
+
+@media screen and (max-width:991px) {
+    .head-links {
+        display: none;
+    }
+
+    .links-2 {
+        display: none;
+    }
+
+    .burger-menu {
+        display: inline-block;
+        font-size: 25px;
+        color: #424242;
+        margin-right: 58px;
+        margin-top: 4px;
+    }
+
+    .main-shaurma {
+        width: 976px;
+    }
+
+    .mac-logo {
+        margin-left: 55px;
+    }
+
+    .moped {
+        display: flex;
+        height: 160px;
+    }
+
+    .moped-text br {
+        display: none;
+    }
+
+    .foot-mac-logo {
+        margin-left: 25px;
+    }
+
+    .foot-wrapper-1 {
+        margin-right: 60px;
+    }
+
+    .foot-wrapper-2 {
+        margin-right: 90px;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .main-shaurma {
+        width: 752px;
+    }
+
+    .circle-container {
+        flex-direction: column;
+    }
+
+    .adv-wrapper-2 {
+        margin-left: 70px;
+    }
+
+    .mac-moped {
+        margin-right: 100px;
+        width: 250px;
+    }
+
+    .moped {
+        align-items: center;
+        flex-direction: column;
+        height: 270px;
+    }
+}

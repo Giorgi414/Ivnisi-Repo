@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+    height: 80px;
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+}
+
+.bejan-header {
+    display: flex;
+    max-width: 1200%;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 100%;
+    height: 67px;
+    margin-left: 50px;
+}
+
+a {
+    text-decoration: none;
+    color: #5a5a5a;
+    margin: 10px;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+#bejan-main:hover {
+    text-decoration: underline;
+}
+
+#bejan-van:hover {
+    text-decoration: underline;
+}
+
+#bejan-marshrutebi:hover {
+    text-decoration: underline;
+}
+
+.tvit-bejana {
+    display: flex;
+    margin-top: 70px;
+    margin-left: 45px;
+}
+
+.bejana {
+    width: 540px;
+}
+
+.bejan-info {
+    font-family: "Noto Sans Georgian", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 500;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-top: 66px;
+    margin-left: 30px;
+}
+
+.bejo-img-info-container {
+    display: flex;
+}

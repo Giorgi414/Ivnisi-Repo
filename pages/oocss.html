@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>oocss</title>
+    <style>
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            width: 1200px;
+            margin: 0 auto;
+            gap: 24px;
+        }
+
+        .container-item {
+            flex: 1 350px;
+            height: 350px;
+            font-size: 40px;
+            text-align: center;
+        }
+
+        .container-item-grey {
+            background-color: grey;
+        }
+
+        .container-item-green {
+            background-color: green;
+        }
+
+        .container-item-red {
+            background-color: red;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="container-item container-item-grey"> This item is grey</div>
+        <div class="container-item container-item-grey"> This item is grey</div>
+        <div class="container-item container-item-grey"> This item is grey</div>
+        <div class="container-item container-item-green"> This item is green</div>
+        <div class="container-item container-item-red"> This item is red</div>
+        <div class="container-item"> This item is translucent,it can have color,i just chose not give it color</div>
+    </div>
+</body>
+</html>

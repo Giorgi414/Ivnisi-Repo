@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectors</title>
+</head>
+<style>
+    .button{
+        background-color: #fcba03;
+        color: white;
+        padding: 8px;
+        border: solid black;
+        border-radius: 12px;
+        font-size: 40px;
+    }
+    button:hover{
+        background-color: #090cdb;
+        color: #09b30c;
+    }
+    button:focus{
+        background-color: #eb1e1e;
+        color: black;
+        font-size: 55px;
+    }
+    input:focus{
+        background-color: black;
+        color: white;
+    }
+    div p:first-of-type{
+        background-color:#090cdb;
+    }
+    ul li:nth-child(5){
+        background-color: #09b30c;
+    }
+    ul li:nth-child(6){
+        background-color: #eb1e1e;
+    }
+    p::selection{
+        color: crimson;
+        background-color: darkgreen;
+    }
+    .giorgisklasi::first-line{
+        color: crimson;
+        font-size: 40px;
+    }
+
+    ul::before{
+        content:'modi aqa bijo!';
+        color: purple;
+        position: relative;
+        top: -15px;
+    }
+
+    ul::after{
+        content: 'zarali ari es...';
+    }
+
+    ul li::marker{
+        color: #09b30c;
+        content: 'ul ';
+    }
+</style>
+<body>
+    <button class="button">დააკლიკე აქ!</button>
+    <input type="text">
+    <div>
+        <h2>
+            Giorgi Gugutishvili & Zuka Gugutishvili
+        </h2>
+        <p >Vasili Gugutishvili</p>
+        <p>Nana Kapanadze</p>
+    </div>
+    <div class="unorderedlist">
+    <ul>
+        <li>10</li>
+        <li>20</li>
+        <li>30</li>
+        <li>40</li>
+        <li>50</li>
+        <li>60</li>
+        <li>70</li>
+        <li>80</li>
+        <li>90</li>
+        <li>100</li>
+    </ul>
+    </div>
+    <p class="giorgisklasi">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos praesentium nostrum ratione mollitia voluptas accusamus quisquam dolorem facilis officia maxime iste facere veniam, quaerat s
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus autem quisquam, asperiores dolorum molestias minima libero vitae est praesentium corrupti, repellendus sed eos sapiente amet! Sapiente maxime explicabo dicta voluptatem!
+    </p>
+</body>
+</html>
