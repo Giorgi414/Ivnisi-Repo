@@ -1,0 +1,79 @@
+<div id="container" onmouseover="dosum()">
+    <div style="height: 1vh;"></div>
+    <video style="width: 100vh;" controls onmouseenter="mouseenterfunction()" onended="endedfunction()" onvolumechange="volumeFunction()" onplay="playFunction()">
+        <source src="../xorvatia/(4K) SKIing Sljeme - Crveni spust - 2020.mp4" type="video/mp4">
+    </video>
+    <div class="container">
+        <p id="demo"></p>
+        <p id="volume"></p>
+        <p id="ended"></p>
+        <p id="mouseenter"></p>
+    </div>
+</div>
+
+
+<script>
+    /*const container = document.querySelector('.container');
+    const aboutUs = document.getElementById('aboutus')
+
+    console.log(aboutUs.getAttribute('id'));
+    aboutUs.setAttribute('id', 'newId')
+
+    console.log(container.children);
+    console.log(container.parentelement);*/
+
+
+
+
+    /*const container = document.querySelector('.container')
+
+    console.log(container.classList);
+    container.classList.add('containeraa')
+    container.classList.remove('containeraa')
+    container.classList.toggle('giorgai')
+    container.className = "containeriiii class1 class2 class3"*/
+
+
+
+    /*const container = document.querySelector('#container');
+    
+    container.innerHTML = '<span> aba kai dge, priusze gaaketeo mweren </span>';
+    container.style.backgroundColor = 'blue'
+    container.style.height = '200px'
+    container.style.width = '250px'*/
+
+    function dosum() {
+        console.log('you scrolled');
+    }
+
+    function playFunction() {
+        //document.getElementById('demo').innerHTML += 'media started playing';
+        console.log('video started playing');
+    }
+
+    function volumeFunction() {
+        document.getElementById('volume').innerHTML += 'volume was changed';
+    }
+
+    function endedfunction() {
+        document.getElementById('ended').innerHTML += 'MEDIA HAS REACHED END.'
+    }
+
+    const end = document.querySelector('#ended')
+    end.style.width = '150px'
+    end.style.height = '100px'
+    end.style.backgroundColor = 'yellow'
+    end.style.fontSize = '18px'
+    end.style.color = 'black';
+
+    function mouseenterfunction() {
+        document.getElementById('mouseenter').innerHTML += 'MOUSE ENTERED ON ELEMENT'
+    }
+
+    const mouseenter = document.getElementById('mouseenter')
+    mouseenter.style.width = '150px'
+    mouseenter.style.height = '150px'
+    mouseenter.style.backgroundColor = 'yellow'
+    mouseenter.style.fontSize = '18px'
+    mouseenter.style.color = 'black';
+</script>
