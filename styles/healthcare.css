@@ -1,0 +1,253 @@
+body {
+    margin: 0%;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #275f49;
+    color: #acc7ab;
+    width: 1310px;
+    height: auto;
+    padding: 20px;
+    position: fixed;
+}
+
+.bary-span {
+    all: unset;
+    font-size: 32px;
+    margin-left: 40px;
+    cursor: pointer;
+    color: #e4f2d4d3;
+}
+
+.header-wrapper-2 {
+    font-family: "Montserrat", sans-serif;
+    margin-top: 8px;
+    font-size: 16px;
+}
+
+.head-wrapper-2-span {
+    cursor: pointer;
+    padding: 10px;
+    transition: 0.5s;
+}
+
+.head-wrapper-2-span:hover {
+    color: #acc7ab75;
+}
+
+#contact-span {
+    margin-left: 35px;
+}
+
+.section1 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 1349px;
+    height: 900px;
+    background-image: url(../media/qali\ da\ gogo.png);
+}
+
+.quality-care {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 420px;
+    height: 550px;
+    background-color: #e4f2d4;
+    margin-left: 60px;
+    border-radius: 40px;
+}
+
+.quality-span {
+    width: 310px;
+    font-size: 60px; 
+    letter-spacing: 0.1px;
+    margin-top: 50px;
+    color: #215540;
+    font-family: "EB Garamond", serif;
+}
+
+.customized {
+    width: 290px;
+    color: #275f49;
+    font-family: "EB Garfontamond", serif;
+    font-size: 23px;
+    margin-top: 16px;
+}
+
+.prioritize {
+    width: 320px;
+    font-family: "Urbanist", sans-serif;
+    color: #275f49ec;
+    margin-top: 16px;
+    margin-left: 30px;
+}
+
+.button1 {
+    all: unset;
+    width: 150px;
+    height: 50px;
+    background-color: transparent;
+    font-family: "EB Garfontamond", serif;
+    font-size: 18px;
+    color: #275f49;
+    border: 1px solid #215540;
+    border-radius: 30px;
+    text-align: center;
+    margin-top: 40px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.button1:hover {
+    background-color: #215540;
+    color: #e4f2d4;
+}
+
+.section2 {
+    background-color: #215540;
+    width: 100%;
+    height: 600px;
+}
+
+.section2-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.sec2-wrapper1 {
+    display: flex;
+    flex-direction: column;
+    padding: 70px;
+}
+
+#sec2-about {
+    background-color: #f3f2ed;
+    color: #215540;
+    font-size: 15px;
+    font-family: "Montserrat", sans-serif;
+    padding: 6px 0px 6px 0px;
+    width: 115px;
+    text-align: center;
+    border-radius: 15px;
+    font-weight: 600; 
+}
+
+#sec2-passion {
+    width: 400px;
+    margin-top: 30px;
+    font-size: 60px;
+    color: #f3f2ed;
+}
+
+#sec2-bary {
+    width: 430px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    color: white;
+    margin-top: 35px;
+}
+
+.sec2-wrapper2 {
+    padding: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    max-width: 600px;
+    margin: auto;
+}
+
+.sec2-wrapper2 img {
+    width: 36%;
+    border-radius: 45px;
+}
+
+/*.sec2-images {
+    border-radius: 40px;
+    animation-name: imagemove;
+    animation-duration: 5.8s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+#sec2-care {
+    animation-name: caremove;
+    animation-duration: 5.8s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes imagemove {
+    from {
+        transform: translate(0px, 0px);
+    }
+    
+    to {
+        transform: translate(0px, 100px);
+    }
+}
+
+@keyframes caremove {
+    from {
+        transform: translate(0px, 0px);
+    }
+
+    to {
+        transform: translate(0px, 100px);
+    }
+}*/
+
+.section3 {
+    background-color: #f3f2ed;
+    width: 100%;
+    height: 1000px;
+}
+
+.services-wrapper {
+    display: flex;
+    flex-direction: column;
+    padding: 60px;
+}    
+
+.sec3-services {
+    background-color: #dcd9fe;
+    color: #215540;
+    font-size: 14px;
+    font-family: "Montserrat", sans-serif;
+    padding: 6px 0px 6px 0px;
+    width: 130px;
+    text-align: center;
+    border-radius: 15px;
+    font-weight: 600;
+}
+
+.sec3-discover {
+    margin-top: 30px;
+    font-size: 60px;
+    color: #215540;
+}
+
+.sec3-wrapper2 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.sec3-wrapper2 img {
+    width: 300px;
+    height: 400px;
+    border-radius: 60px;
+}
+
+.qali-bavshvi-kaci {
+    margin-top: 60px;
+}
+
+.image-text-wrapper {
+    display: flex;
+    justify-content: space-around;
+}
