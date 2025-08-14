@@ -407,7 +407,7 @@ header {
 
 .section5 {
     width: 100%;
-    height: 1100px;
+    height: 900px;
     background-color: #dcd9fe;
 }
 
@@ -446,14 +446,51 @@ header {
     line-height: 22px;
 }
 
-.heart-care-wrapper {
+.heart-care-images-container {
     display: flex;
     justify-content: flex-end;
-    gap: 25px;
-    padding-right: 20px;
+    gap: 30px;
 }
 
-.care-image-link {
-    width: 180px;
+.member {
+    display: flex;
+    flex-direction: column;
+}
+
+.image-link {
+    width: 210px;
     border-radius: 25px;
+}
+
+.member h2 {
+    color: #215540;
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+    line-height: 0%;
+    margin-top: 25px;
+}
+
+.member p {
+    font-family: "Montserrat", sans-serif;
+    color: #245844;
+    line-height: 0px;
+    letter-spacing: 0%;
+}
+
+.section6 {
+    width: 100%;
+    height: 1000px;
+    background-color: #f3f2ed;
+}
+
+.testimonials {
+    background-color: #f3f2ed;    
+    color: #215540;
+    font-size: 14px;
+    font-family: "Montserrat", sans-serif;
+    padding: 6px 0px 6px 0px;
+    width: 110px;
+    text-align: center;
+    border-radius: 15px;
+    font-weight: 600;
 }
